@@ -77,10 +77,3 @@ document.getElementById('Reset').addEventListener('click',function(){
     computerNUM.innerText = ''
     score.innerText = ''
 })
-
-
-
-
-
-
-
