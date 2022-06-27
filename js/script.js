@@ -50,8 +50,8 @@ document.getElementById('Play').addEventListener('click', function(){
 
 // 2.genero un numero random da 1 a 6 sia per l'utente che per il Pc
     //* Math.floor(Math.random() * (max - min)) + min;
-    const randomNUsr =  Math.floor(Math.random() * (6 - 1)) +  1
-    const randomNPc =  Math.floor(Math.random() * (6 - 1)) +  1
+    const randomNUsr =  Math.floor(Math.random() * 6) +  1
+    const randomNPc =  Math.floor(Math.random() * 6) +  1
     console.log('randomNUsr:',randomNUsr,'randomNPc:',randomNPc)
 
 // 3.stampo in pagina
